@@ -1,0 +1,35 @@
+
+body{
+	background-image: url('../images/index.png');
+}
+
+#welcome{
+	color:white;
+	font-size: 11em;
+	text-align: center;
+	font-family: helvetica;
+}
+
+
+.start{
+	margin-left:40%;
+}
+
+#whiteLogo{
+	width: 450px;
+	float:right;
+	margin-bottom:0px;
+
+}
+#footer{
+	padding: 15px 0 15px 0;
+	position:absolute;
+	bottom:10px;
+	right:40px;
+	
+	}
+
+.mainindex{
+	position:relative;
+	top:150px;
+}
