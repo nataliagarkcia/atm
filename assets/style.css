@@ -24,9 +24,10 @@
 
 /* CSS by LF for page3-LF.html */
 .options{
-	background-color: grey;
+	background-color: #0759A7;
 	margin: 40px;
 	padding: 40px;
+	border: 2px solid #D32027;
 }
 
 .nav {
