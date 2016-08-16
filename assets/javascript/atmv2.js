@@ -137,11 +137,12 @@ var bankOfAmericaCustomers = [{
 
 		}
 	}
-	
+	//If user enters wrong menu input
 	function error() {
 		alert('Error: accepted numbers are 1 through 4.');
 		atm();
 	}
+	//When user exits the menu
 	function exit() {
 		var confirm_leave = confirm('You have selected exit.');
 		if (confirm_leave) {
@@ -150,7 +151,7 @@ var bankOfAmericaCustomers = [{
 			atm();
 		}
 	}
-
+	//Provide user choices
 	function atm() {
 		var choice = parseInt(prompt('Select a choice 1.) Balance 2.) Deposit 3.) Withdrawal 4.) Exit')); //prompt user for choice.
 		if (choice === 1) {
@@ -165,4 +166,5 @@ var bankOfAmericaCustomers = [{
 			error();
 		}
 	}
+	//Starts the program
 	atm();
