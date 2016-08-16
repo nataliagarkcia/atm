@@ -1,7 +1,7 @@
 
-var bankIdNumbers [
+var bankIdNumbers = [
 	{chase: "100000000"}, {bankOfAmerica: "200000000"}, {wellsFargo: "300000000"}
-]
+];
 
 var chaseCustomers = [{
     firstName: 'Abiam',
@@ -79,8 +79,8 @@ var bankOfAmericaCustomers = [{
     savingsAccountBalance: 0,
     checkingAccount: 'BOA-84474650',
     checkingAccountBalance: 0
-}
 }]
+// }]
 
 	function get_balance() {
 		alert('Your current checking balance is: ' + bankOfAmerica.checkingAccountBalance + " and your savings account balance is: " + bankOfAmerica.savingsAccountBalance);
