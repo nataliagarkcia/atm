@@ -80,10 +80,11 @@ var bankOfAmericaCustomers = [{
     checkingAccount: 'BOA-84474650',
     checkingAccountBalance: 0
 }]
-// }]
+
 
 	function get_balance() {
-		alert('Your current checking balance is: ' + bankOfAmerica.checkingAccountBalance + " and your savings account balance is: " + bankOfAmerica.savingsAccountBalance);
+		alert('Your current checking balance is: ' + bankOfAmericaCustomers.checkingAccountBalance + " and your savings account balance is: " + bankOfAmericaCustomers.savingsAccountBalance);
+		// alert('Your current checking balance is: ' + bankOfAmerica.checkingAccountBalance + " and your savings account balance is: " + bankOfAmerica.savingsAccountBalance);
 		atm();
 	}
 	function make_deposit() {
@@ -92,7 +93,7 @@ var bankOfAmericaCustomers = [{
 			alert('Error: please enter a number!');
 			make_deposit();
 		} else {
-			var checkingOrSaving = parseInt(promt("Would you like to deposit into your Checking or Savings? Press 1 for Checking, and 2 for Savings."));
+			var checkingOrSaving = parseInt(prompt("Would you like to deposit into your Checking or Savings? Press 1 for Checking, and 2 for Savings."));
 			if(checkingOrSaving == 1)
 			{
 				bankOfAmerica.checkingAccountBalance += deposit;
